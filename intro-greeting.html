@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인사말 - 센텀영안교회</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { brandPink: '#D83888', brandBlue: '#205BB5', brandDarkBlue: '#152C5B', brandFooter: '#7184AD' }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 flex flex-col min-h-screen justify-between">
+
+    <!-- [상단 헤더] -->
+    <header class="bg-gradient-to-r from-brandPink via-brandBlue to-brandDarkBlue text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3">
+                <div class="border-l-2 border-white pl-2">
+                    <div class="text-xl sm:text-2xl font-bold">센텀영안교회</div>
+                    <div class="text-[10px] tracking-widest text-gray-200">CENTUM YOUNGAHN BAPTIST CHURCH</div>
+                </div>
+            </a>
+            <a href="index.html" class="text-sm border border-white/40 px-3 py-1.5 rounded-full hover:bg-white/10 transition">
+                <i class="fa-solid fa-house mr-1"></i> 홈으로
+            </a>
+        </div>
+    </header>
+
+    <!-- [메인 본문] -->
+    <main class="max-w-4xl mx-auto px-4 py-16 flex-1 w-full">
+        <!-- 타이틀 -->
+        <div class="text-center mb-12">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-brandDarkBlue mb-3">인사말</h1>
+            <p class="text-gray-500">센텀영안교회 홈페이지를 방문해주신 여러분을 환영합니다.</p>
+            <div class="w-12 h-1 bg-brandPink mx-auto mt-4 rounded-full"></div>
+        </div>
+
+        <!-- 인사말 콘텐츠 -->
+        <div class="bg-white p-8 sm:p-12 rounded-2xl shadow-sm border border-gray-100 space-y-6 text-gray-700 leading-relaxed text-base sm:text-lg">
+            <h2 class="text-2xl font-bold text-brandBlue mb-4">"하나님의 사랑과 은혜가 가득한 주님의 교회"</h2>
+            <p>
+                할렐루야! 센텀영안교회 홈페이지를 찾아주신 성도님들과 방문객 여러분을 주님의 이름으로 따뜻하게 환영합니다.
+            </p>
+            <p>
+                우리 센텀영안교회는 예수 그리스도의 복음 위에서 세워져, 말씀과 기도 안에서 성숙하며 세상을 향해 사랑을 실천하는 믿음의 공동체입니다.
+            </p>
+            <p>
+                삶의 여정 속에서 참된 평안과 소망을 찾으시는 모든 분들에게 하나님의 따뜻한 위로와 능력이 함께하시기를 기도합니다.
+            </p>
+            <div class="pt-8 text-right font-bold text-gray-900">
+                센텀영안교회 담임목사 및 성도 일동
+            </div>
+        </div>
+    </main>
+
+    <!-- [하단 푸터] -->
+    <footer class="bg-brandFooter text-white py-8 border-t border-brandFooter/50 text-sm">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <p>부산시 해운대구 해운대로 76번길 34(재송동) | TEL. 051)891-7034</p>
+                <p class="text-xs text-gray-200 mt-1">Copyright © 센텀영안교회 All Rights Reserved.</p>
+            </div>
+            <a href="index.html" class="hover:underline text-xs">메인화면 돌아가기</a>
+        </div>
+    </footer>
+
+</body>
+</html>
